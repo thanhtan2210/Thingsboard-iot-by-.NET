@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6f02GWNMog8=",
+  "dgSpecHash": "MFisAs4IQsc=",
   "success": true,
-  "projectFilePath": "D:\\Bon Bon\\project 1\\git\\Thingsboard-iot-by-.NET\\backend\\src\\MyIoTPlatform.Application\\MyIoTPlatform.Application.csproj",
+  "projectFilePath": "D:\\Bon Bon\\project 1\\git\\PowerHub\\backend\\src\\MyIoTPlatform.Application\\MyIoTPlatform.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BonBon\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\BonBon\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
