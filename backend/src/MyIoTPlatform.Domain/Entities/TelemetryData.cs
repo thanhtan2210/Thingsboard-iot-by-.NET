@@ -2,6 +2,7 @@ namespace MyIoTPlatform.Domain.Entities;
 
 public class TelemetryData
 {
+    public Guid Id {get; set;}
     public Guid DeviceId { get; set; }
     public DateTime Timestamp { get; set; }
     public string Key { get; set; } = string.Empty;
