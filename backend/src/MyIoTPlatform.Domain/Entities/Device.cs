@@ -12,5 +12,6 @@ public class Device
     public DateTime CreatedAt { get; set; }
     public DateTime? LastActivityAt { get; set; }
     public DateTime? UpdateAt {get; set;}
+    public ICollection<TelemetryData> Telemetries { get; set; } = new List<TelemetryData>();
     // Thêm các thuộc tính khác nếu cần
 }

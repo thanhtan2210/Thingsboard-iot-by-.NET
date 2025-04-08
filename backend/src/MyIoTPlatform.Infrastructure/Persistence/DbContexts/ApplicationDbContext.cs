@@ -15,7 +15,9 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     // Khai báo các bảng sẽ được tạo trong DB
     public DbSet<Device> Devices => Set<Device>(); // Cách viết gọn hơn
     public DbSet<TelemetryData> TelemetryData => Set<TelemetryData>();
+    public DbSet<TelemetryData> Telemetries => Set<TelemetryData>();
     // Thêm DbSet cho các entity khác...
+    public DbSet<Alarm> Alarms => Set<Alarm>();
 
     // Triển khai phương thức từ Interface IApplicationDbContext
     // SaveChangesAsync đã có sẵn trong DbContext base class.

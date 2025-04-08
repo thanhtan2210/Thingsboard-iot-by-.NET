@@ -7,6 +7,7 @@ public class TelemetryData
     public DateTime Timestamp { get; set; }
     public string Key { get; set; } = string.Empty;
     public string Value { get; set; } = string.Empty;
+    public Device? Device { get; set; }
     // public decimal? DoubleValue { get; set; }
     // public long? LongValue { get; set; }
     // public string StringValue { get; set; }
