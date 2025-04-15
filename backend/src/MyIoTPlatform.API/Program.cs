@@ -1,4 +1,5 @@
 // Ví dụ rút gọn trong Program.cs
+using Microsoft.EntityFrameworkCore;
 using MyIoTPlatform.Application; // Assuming AddApplicationServices is defined here
 using MyIoTPlatform.Infrastructure; // Assuming AddInfrastructureServices is defined here
 using MyIoTPlatform.Infrastructure.Communication.Realtime; // For DashboardHub
@@ -55,3 +56,13 @@ app.MapControllers();
 app.MapHub<DashboardHub>("/dashboardhub"); // Map SignalR Hub endpoint
 
 app.Run();
+
+// builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// builder.Services.AddInfrastructureServices(builder.Configuration);
+
+// services.AddDbContext<ApplicationDbContext>(options =>
+//     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+// services.AddScoped<IAzureMlService, AzureMlService>();
